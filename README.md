@@ -2,7 +2,7 @@
 
 ### Assignment
 * The project serves as a prototype for controlling an electric gateway using an STM32 microcontroller and the possibility of remote control using LoRa technology.
-* It is possible to debug using UART.
+* It is possible to debug using USB Virtual Serial COM.
 * It implements human detection, safety button, status OLED display, limit switches, servo motor and OPEN/CLOSE button.
 * Remote access is enabled through LoRa communication and a simple web-based graphical interface.
 
