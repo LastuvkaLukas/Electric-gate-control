@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "usb_device.h": "c",
+        "usbd_cdc_if.h": "c",
+        "usbd_cdc.h": "c",
+        "xt_gate_stm32.h": "c",
+        "stm32f4xx_hal_pcd.h": "c",
+        "usbd_conf.h": "c",
+        "stdio.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "ssd1306_center.h": "c",
+        "lora_sx1276.h": "c",
+        "xt_debug.h": "c",
+        "tim.h": "c",
+        "gpio.h": "c",
+        "main.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "stdint.h": "c"
+    },
+    "docwriter.style": "Auto-detect",
+    "docwriter.progress.trackFunctions": true,
+    "docwriter.progress.trackMethods": true,
+    "docwriter.progress.trackClasses": false,
+    "docwriter.progress.trackTypes": false
+}

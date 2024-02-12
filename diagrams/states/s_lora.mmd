@@ -1,0 +1,38 @@
+graph LR
+
+    %% 
+    %% Name: s_lora.mmd
+    %% Description: 
+    %% 
+    %% Created Date: February 2024
+    %% Author:
+    %% 		Lukáš Laštůvka
+    %% 		https://github.com/LastuvkaLukas
+    %% 
+    %% License: Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+    %% Copyright (c) 2024 Lukáš Laštůvka
+    %% 
+
+    %% Styles
+    classDef mainNode fill:#000,color:#fff,stroke:#000000,stroke-width:2px;
+    classDef greenNode fill:#77DD77,stroke:#000000,stroke-width:2px;
+    classDef yellowNode fill:#F7DC6F,stroke:#000000,stroke-width:2px;
+    classDef redNode fill:#FF5733,stroke:#000000,stroke-width:2px;
+
+    %% Nodes
+    Main(<b>LoRa)
+    A(<b>Recieve command)
+        A1(<b>Toggle mode_a1)
+        A2(<b>Toggle mode_a2)
+        A3(<b>Send info)
+
+    %% Set styles
+    class Main mainNode
+    class A1,A2,A3 greenNode;
+    class A yellowNode;
+
+    %% Diagram
+    Main -->|<b>lora_dio| A
+    A -->|<b>A1 command| A1
+    A -->|<b>A2 command| A2
+    A -->|<b>info command| A3
